@@ -1,5 +1,5 @@
 import pytest
-from origin_class import BooksCollector
+from main import BooksCollector
 
 @pytest.fixture(scope='function')
 def book(self):
